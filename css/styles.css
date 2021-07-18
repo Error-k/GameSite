@@ -1,0 +1,405 @@
+body, html {
+	min-width: 320px;
+	font-size: 14px; 
+	color: #626262;
+	font-family: 'Ubuntu', sans-serif;
+	background-repeat: no-repeat;
+	background-size: 1980px 2200px;
+	background: linear-gradient(to bottom, #190061, #e9e9e9)
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: #fff;
+	text-shadow: 1px 1px 1px #ccc;
+}
+a:hover {
+	color: #ccc;	
+}
+.navbar .dropdown:hover > .dropdown-menu {
+ display: block; 
+}
+.navbar-link {
+	text-decoration: none;
+	font-size: 50px;
+	margin-left: 120px;
+	padding-bottom: 10px;
+}
+.carousel-inner .btn {
+	box-shadow: 0 0 0 2px #9CEE9030;
+}
+.card .btn  {
+	box-shadow: 0 0 0 2px #30D5C830;
+}
+.shadow {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    max-width: 1400px;
+    margin: 10px auto;
+    background-color: #e9e9e9;
+    border-radius: 20px; 
+}
+.container {
+	max-width: 1400px;
+	padding: 0;
+}
+
+.navbar {
+	font-size: 20px;
+	background: linear-gradient(to right bottom, #0C0032, #240090);
+	max-width: 1400px;
+	margin: 0 auto;
+	border-radius: 20px 20px 0 0;
+}
+.navbar-brand {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	max-width: 200px;
+	max-height: 85px;
+	margin-left: 50px;
+	margin-right: 0;
+}
+.dropdown-toggle {
+	text-align: center;
+	margin-top: 10px;
+	
+}
+.navbar-toggler {
+	width: 70px;
+	height: 70px;
+	margin-right: 20px;
+	padding: 0;
+	border: 1px solid white;
+}
+.navbar-toggler-icon {
+	background-image: url(../images/menu-icon.svg);
+	width: 60px;
+	height: 60px;
+}
+.nav-item {
+	text-transform: uppercase;
+	margin-right: 50px;
+}
+.nav-item a::after {
+	content: '';
+	display: block;
+	width: 100%;
+	transform: scale(0);
+	transition: all 0.5s;
+}
+.nav-item a:hover::after {
+ 	transform: scale(1);
+}
+.HITS {
+	max-width: 410px;
+	display: block;
+	margin: 30px auto;
+	max-height: 30px;
+}
+.HITS h1 {
+    padding: 0 0 6px 10px;
+    border-left: 10px solid #8B00FF;
+    border-bottom: 2px solid #8B00FF;
+    text-shadow: 3px 3px 3px #ccc;
+}
+.carousel-inner img {
+	width: 100%;
+	max-height: 650px;
+}
+
+#slider {
+	max-width: 1400px;
+	max-height: 650px;
+	margin: 35px auto;
+}
+.carousel-item h2 {
+	padding-bottom: 10px;
+}
+.carousel-item .btn {
+	margin-bottom: 20px;
+}
+.grid-posts {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.grid-posts .row{
+	margin:  0 15px;
+}
+.grid-posts .card {
+	margin-bottom: 50px;
+	margin-left: 5px;
+	border: 0;
+	background-color: #e9e9e9;
+}
+
+.grid-posts .card-img-top {
+	max-height: 437px;
+	max-width: 437px;
+	margin-bottom: 20px;
+}
+
+.grid-posts .a-card-title{
+	color: #0a0a0b;
+	text-decoration: none;
+}
+.grid-posts .a-card-title:hover {
+	color: #660066;
+}
+
+.grid-posts .a-card-title::after {
+	content: '';
+	display: block;
+	width: 100%;
+	transform: scale(0);
+	transition: all 0.5s;
+	background-color: #660066;
+	height: 2px;
+}
+.grid-posts .a-card-title:hover::after {
+	transform: scale(1);
+}
+
+.grid-posts  h5 {
+	height: 60px;
+	font-size: 23px;
+	text-align: center;
+	margin: 0;
+}
+.grid-posts .card-text {
+	margin-top: 10px;
+	font-size: 1.1rem;
+}
+
+.grid-posts .btn {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+footer {
+	background-color: #666;
+}
+
+.footer-center {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-size: 1.2rem;
+	color: #fff;
+}
+
+@media only screen and (max-width: 1447px) {
+	.row {
+		margin: 0;
+	}
+}
+@media only screen and (max-width: 1380px) {
+	.navbar-link {
+		margin-left: 100px;
+	}
+}
+@media only screen and (max-width: 1317px) {
+	.navbar-link {
+		margin-left: 60px;
+	}
+}
+@media only screen and (max-width: 1242px) {
+	.navbar-link {
+		margin-left: 40px;
+	}
+}
+@media only screen and (max-width: 1199px) {
+	.HITS h1{
+		font-size: 33px;
+	}
+	.grid-posts h5 {
+		font-size: 19px;
+	}
+	.HITS {	
+		margin: 27px auto;
+		max-height: 27px;	
+	}
+	.navbar-brand {
+		margin-left: 15px;
+	}
+	.navbar-brand img{
+		max-width: 176px;
+		max-height: 74px;
+	}
+	.a-card-title {
+		height: 55px;
+	}
+	.navbar-link {
+		margin-right: 20px;
+	}
+}
+
+@media only screen and (max-width: 1139px) {
+	
+	.card-title {
+		height: 55px;
+	}
+	.grid-posts h5 {
+		font-size: 18px;
+	}
+	.nav-item {
+		margin-right: 13px;
+	}
+}
+@media only screen and (max-width: 1129px) {
+
+	}
+
+@media only screen and (max-width: 991px) {
+	.HITS h1{
+		font-size: 30px;
+	}
+	.HITS {	
+		margin: 24px auto;
+		max-height: 24px;	
+	}
+	.navbar-brand {
+		max-width: 180px;
+		max-height: 75px;
+		margin-left: 30px;
+	}
+	.dropdown-menu {
+		text-align: center;
+	}
+	.dropdown-item {
+		font-size: 16px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
+
+@media only screen and (max-width: 891px) {
+	/*#mobile-card-title {
+		height: 80px;
+	}
+	#strategy-card-title {
+		margin-top: 15px;
+	}
+	#strategy-card-text {
+		margin-top: 21px;
+	}
+	#browser-card-title {
+		margin-top: 15px;
+	}
+	#browser-card-text {
+		margin-top: 21px;
+	}*/
+}
+@media only screen and (max-width: 884px) {
+	/*#browser-card-title {
+		margin-top: 0;
+		height: 80px;
+	}
+	#browser-card-text {
+		margin-top: 11px;
+	}*/
+}
+@media only screen and (max-width: 845px) {
+	/*#strategy-card-title {
+		margin-top: 0;
+		height: 80px;
+	}
+	#strategy-card-text {
+		margin-top: 11px;
+	}
+	#mmorpg-card-title {
+		margin-top: 15px;
+		height: 55px;
+	}
+	#mmorpg-card-text {
+		margin-top: 21px;
+	}
+	#shooter-card-title {
+		margin-top: 15px;
+	}
+	#shooter-card-text {
+		margin-top: 21px;
+	}
+	#action-card-title {
+		margin-top: 0;
+		height: 80px;
+	}
+	#action-card-text {
+		margin-top: 11px;
+	}*/
+}
+@media only screen and (max-width: 843px) {
+	/*#shooter-card-title {
+		margin-top: 0;
+		height: 80px;
+	}
+	#shooter-card-text {
+		margin-top: 11px;
+	}*/
+}
+@media only screen and (max-width: 767px) {
+	.HITS h1{
+		font-size: 27px;
+	}
+	.HITS {	
+		margin: 21px auto;
+		max-height: 21px;	
+	}
+	.navbar-brand {
+		max-width: 170px;
+		max-height: 70px;
+		margin-left: 20px;
+	}
+	.dropdown-menu {
+		text-align: center;
+	}
+	.dropdown-item {
+		font-size: 16px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	#mmorpg-card-title {
+		height: 27px;
+	}
+	#mmorpg-card-text {
+		margin-top: 23px;
+	}
+	#shooter-card-title {
+		height: 55px;
+	}
+	#action-card-title {
+		height: 55px;
+	}
+	#strategy-card-title {
+		height: 55px;
+	}
+	#browser-card-title {
+		height: 55px;
+	}
+	#mobile-card-title {
+		height: 55px;
+	}
+}
+
+@media only screen and (max-width: 685px) {
+.navbar-link {
+	margin: auto 15px;
+}
+.navbar-brand img{
+	height: 0;
+	width: 0;
+}
+}
+
+@media only screen and (max-width: 575px) {
+	.a-img-card-title {
+		max-width: 450px;
+		margin: 0 auto;
+	}	
+	.card-title {
+		height: 27px;
+	}
+}
+
